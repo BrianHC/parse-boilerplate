@@ -17,10 +17,10 @@ if (!databaseUri) {
 var dashboard = new ParseDashboard({
   "apps": [
     {
-      "serverURL":  process.env.SERVER_URL, // example: 'https://hitmeup-parse.herokuapp.com/parse'
+      "serverURL":  process.env.SERVER_URL, // example: L'https://hitmeup-parse.herokuapp.com/parse'
       "appId":  process.env.APP_ID || 'myAppId',
-        "masterKey": process.env.MASTER_KEY,
-      "appName": "MyApp"
+      "masterKey": process.env.MASTER_KEY,
+      "appName": process.env.APP_NAME || "MyApp"
     }
   ],
   "users":[
