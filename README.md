@@ -2,7 +2,7 @@ This boiler plate project is meant to be used to quickly deploy a parse server t
 
 Prerequisites:
 
-1. you have an a heroku account setup
+1. you have a heroku account setup
 2. you have a mongo database setup that is accessible through HTTP (I recommend using mLAB for their free sandbox db)
 3. you have node and npm setup on your computer
 
